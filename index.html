@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body class="bg-dark text-white">
+    <h2 id="heading">Calculator</h2>
+    <div>
+        <form style="margin-left: 50px;" name="form">
+            <input type="text" name="textview" id="txt" class="form-control" value="">
+        </form>
+
+        <div style="margin-left: 50px;">
+            <div>
+                <button type="button" class="btn btn-primary" onclick="back()">C</button>
+                <button type="button" class="btn btn-primary" onclick="Clear()">AC</button>
+                <button type="button" class="btn btn-primary" onclick="insert('%')">%</button>
+                <button type="button" class="btn btn-primary" onclick="insert('/')">/</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary" onclick="insert('7')">7</button>
+                <button type="button" class="btn btn-primary" onclick="insert('8')">8</button>
+                <button type="button" class="btn btn-primary" onclick="insert('9')">9</button>
+                <button type="button" class="btn btn-primary" onclick="insert('*')">*</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary" onclick="insert('4')">4</button>
+                <button type="button" class="btn btn-primary" onclick="insert('5')">5</button>
+                <button type="button" class="btn btn-primary" onclick="insert('6')">6</button>
+                <button type="button" class="btn btn-primary" onclick="insert('-')">-</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary" onclick="insert('1')">1</button>
+                <button type="button" class="btn btn-primary" onclick="insert('2')">2</button>
+                <button type="button" class="btn btn-primary" onclick="insert('3')">3</button>
+                <button type="button" class="btn btn-primary" onclick="insert('+')">+</button>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary" onclick="insert('00')">00</button>
+                <button type="button" class="btn btn-primary" onclick="insert('0')">0</button>
+                <button type="button" class="btn btn-primary" onclick="insert('.')">.</button>
+                <button type="button" class="btn btn-primary" onclick="equal()">=</button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
