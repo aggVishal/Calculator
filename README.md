@@ -1,16 +1,3 @@
-# Calculator-using-HTML-CSS-and-JS
-
-
->This Repositary contains three files: 
-
-
-
-* calcindex.html
-
-* calcscript.js
-
-* calcstyle.css
-
-
-
-The style sheet contains the necessary stylings and the calcscript file contains the necessary functions to implement the calculator.
+CALCULATOR:
+It includes functions like add, subtract, multiply, devide two numbers.
+It can also clear the data inserted.
